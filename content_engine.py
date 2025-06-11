@@ -12,7 +12,7 @@ import uuid
 
 # Core imports
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.prompts import PromptTemplate
